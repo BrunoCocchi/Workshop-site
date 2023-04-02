@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu .menu-logo {
+    width: 12%;
+}
+
+.menu .menu-nav .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu .menu-nav .menu-list-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner {
+    margin-right: 260px;
+    margin-left: 260px;
+}
+
+.banner .banner-image {
+    width: 100%;
+    
+}
+
+.sobre-nos{
+    padding: 25px;
+    
+}
+
+.sobre-nos .sobre-nos__restaurante {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.sobre-nos .restaurante-image {
+ 
+    width: 35%;
+    margin-left: 280px;
+    
+}
+
+.sobre-nos .ambiente-image {
+    width: 35%;
+    margin-top: 230px;
+    margin-right: 360px;
+}
+
+.sobre-nos .sobre-nos__title {
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+.sobre-nos .sobre-nos__descricao {
+    font-size: 20px;
+    width: 47%;
+    
+}
+
+.sugestao-chef-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sugestao-chef__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+
+.sugestao-chef {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    background-color: #535353;   
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.sugestao-chef .sugestao-chef__image {
+    width: 45%;
+    border-radius: 5px;
+}
